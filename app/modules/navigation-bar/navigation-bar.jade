@@ -2,8 +2,8 @@ nav.navbar(ng-if="vm.isEnabledHeader")
     div.nav-left
         a.logo(
             ng-if="!vm.isAuthenticated"
-            href="https://taiga.io/",
-            title="{{'PROJECT.NAVIGATION.HOMEPAGE' | translate}}"
+            href="projects.seige.ai",
+            title="Home"
         )
             include ../../svg/logo.svg
 
@@ -16,8 +16,7 @@ nav.navbar(ng-if="vm.isEnabledHeader")
             include ../../svg/logo.svg
 
         a(
-            href="https://tree.taiga.io/support/",
-            target="_blank",
+            href="https://www.siege.ai/contact-us/",
             title="{{'PROJECT.NAVIGATION.HELP_TITLE' | translate}}",
             translate="PROJECT.NAVIGATION.HELP"
         )
