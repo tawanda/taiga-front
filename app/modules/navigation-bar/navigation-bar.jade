@@ -1,19 +1,19 @@
 nav.navbar(ng-if="vm.isEnabledHeader")
     div.nav-left
-        a.logo(
-            ng-if="!vm.isAuthenticated"
-            href="projects.seige.ai",
-            title="Home"
-        )
-            include ../../svg/logo.svg
-
-        a.logo(
-            ng-if="vm.isAuthenticated"
-            href="#",
-            tg-nav="home",
-            title="{{'PROJECT.NAVIGATION.HOMEPAGE' | translate}}"
-        )
-            include ../../svg/logo.svg
+        //a.logo(
+        //    ng-if="!vm.isAuthenticated"
+        //    href="projects.seige.ai",
+        //    title="Home"
+        //)
+        //    include ../../svg/logo.svg
+        //
+        //a.logo(
+        //    ng-if="vm.isAuthenticated"
+        //    href="#",
+        //    tg-nav="home",
+        //    title="{{'PROJECT.NAVIGATION.HOMEPAGE' | translate}}"
+        //)
+        //    include ../../svg/logo.svg
 
         a(
             href="https://www.siege.ai/contact-us/",
